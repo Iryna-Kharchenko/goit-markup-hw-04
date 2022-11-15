@@ -133,15 +133,13 @@ img {
 }
 
 .header-address-list {
-align-items: center;
+  align-items: center;
 }
-
 
 .contact-icon {
   fill: currentColor;
   margin-right: 10px;
 }
-
 
 .header-link:hover,
 .header-link:focus,
@@ -162,8 +160,6 @@ align-items: center;
 .header-tel {
   color: var(--primary-text-color);
 }
-
-
 
 /* --------------HERO-------------------- */
 
@@ -396,14 +392,17 @@ align-items: center;
 /* --------------FOOTER-------------------- */
 
 .footer {
-    padding: 60px 0;
+  padding: 60px 0;
   background: #2f303a;
 }
 
 .footer-container {
   display: flex;
   align-items: baseline;
-  /* justify-content: space-between; */
+}
+
+.footer-contacts {
+  margin-right: 70px;
 }
 
 .footer-list {
@@ -444,7 +443,7 @@ align-items: center;
 }
 
 .footer-subtitle {
-  /* display: flex; */
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
