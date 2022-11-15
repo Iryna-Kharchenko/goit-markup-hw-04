@@ -132,7 +132,8 @@ img {
   text-decoration: none;
 }
 
-.header-address-list {
+.header-mail,
+.header-tel {
   align-items: center;
 }
 
@@ -238,6 +239,13 @@ img {
 .features-item,
 .team-item {
   flex-basis: calc((100% - 90px) / 4);
+}
+
+.features-icon {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
 }
 
 .feature-title,
