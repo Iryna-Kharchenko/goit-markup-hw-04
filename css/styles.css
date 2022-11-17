@@ -39,14 +39,18 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header-container,
+.header-nav,
+.header-list,
+.header-address-list,
+.header-mail,
+.header-tel {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-.header-nav {
-  display: flex;
+.header-container {
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-list,
@@ -67,11 +71,11 @@ img {
 
 .header-list,
 .header-address-list {
-  display: flex;
   gap: 50px;
 }
 
-.header-address-list {
+.header-mail,
+.header-tel {
   align-items: center;
 }
 
@@ -164,18 +168,20 @@ img {
 /* --------------HERO-------------------- */
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
   padding: 200px 0;
+  margin: 0 auto;
   background-color: #2f303a;
   justify-content: center;
-}
 
-.hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-bg.jpg);
-  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
